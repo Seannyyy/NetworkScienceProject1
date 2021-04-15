@@ -66,10 +66,10 @@ def openGUI():
                     graph,no,need = GetScseReputationDistribution(data.GetScseNetwork())
 
                 elif option_graph.get() == "Reputation Degree":
-                    graph = GetAuthorReputationDegree(data.GetScseNetwork())
+                    graph = GetCoauthorReputationDegree(data.GetScseNetwork())
 
                 elif option_graph.get() == "Maximum Degree Change":
-                    graph = GetAuthorMaximumDegreeChange(data.GetScseNetwork())
+                    graph = GetCoauthorMaximumDegreeChange(data.GetScseNetwork())
 
         elif option_network.get() == "Coauthor":
                 if option_graph.get() == "Degree Distribution":
