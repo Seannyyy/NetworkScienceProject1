@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import pandas as pd
 #load configs
-import configs as cfg
+#import configs as cfg
 
 # Obtain data from JSON
 def ParseJSONtoDict (filename):

@@ -1,4 +1,4 @@
-import Preprocessing as ps
+import preprocessing as ps
 import Faculty as sc
 import gui
 import json
